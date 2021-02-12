@@ -1,7 +1,7 @@
-# indecision app
+# expensify app
 
 
-
+this project is still ongoing
 
 
 
@@ -123,7 +123,7 @@ install your npm and npm run dev-server
 
 ## Photos
 
-![DeployedPhoto](https://github.com/daviddugle/udemy-react-indecision-app/blob/main/public/images/example.gif?raw=true)
+![DeployedPhoto]()
 
 
 
