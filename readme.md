@@ -1,7 +1,7 @@
 # expensify app
 
 
-this project is still ongoing
+this project is still ongoing *** check back later
 
 
 
