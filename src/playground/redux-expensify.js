@@ -120,19 +120,19 @@ store.subscribe(() => {
     console.log(store.getState());
 });
 
-const expenseOne = store.dispatch(addExpense({ description: "Rent", amount: 100}));
-const expenseTwo = store.dispatch(addExpense({ description: "Coffee", amount: 300}));
- console.log(expenseOne);
+// const expenseOne = store.dispatch(addExpense({ description: "Rent", amount: 100}));
+// const expenseTwo = store.dispatch(addExpense({ description: "Coffee", amount: 300}));
+//  console.log(expenseOne);
 
- store.dispatch(removeExpense({id: expenseOne.expense.id}));
+//  store.dispatch(removeExpense({id: expenseOne.expense.id}));
 
- store.dispatch(editExpense(expenseTwo.expense.id, { amount: 500 }))
+//  store.dispatch(editExpense(expenseTwo.expense.id, { amount: 500 }))
 
- store.dispatch(setTextFilter("rent"));
- store.dispatch(setTextFilter());
+//  store.dispatch(setTextFilter("rent"));
+//  store.dispatch(setTextFilter());
 
- store.dispatch(sortByAmount()); // amount
- store.dispatch(sortByDate()); // date
+//  store.dispatch(sortByAmount()); // amount
+//  store.dispatch(sortByDate()); // date
 
 const demoState = {
     expenses: [{
