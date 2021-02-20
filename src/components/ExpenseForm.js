@@ -1,7 +1,6 @@
 import React from "react";
 import moment from "moment";
 import { SingleDatePicker } from "react-dates"; // this is the super cool one that airbnb came up with
-import "react-dates/lib/css/_datepicker.css";
 
 const now = moment();
 console.log(now.format("MMM Do, YYYY"));
